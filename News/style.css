@@ -14,9 +14,12 @@ span button {
   color: white;
   float: right;
   margin-right: 10px;
+  margin-top: 42px;
   border: none;
   width: 80px;
   height: 25px;
+  z-index: 4;
+  position: relative;
 }
 button a {
   text-decoration: none;
@@ -37,6 +40,7 @@ button:hover {
     z-index: 1;
     margin-top: 10px;
     width: 100%;
+    position: absolute;top: 20px;
   }
   .topnav a {
     float: left;

@@ -1,3 +1,7 @@
+*{
+  margin : 0;
+}
+
 span {
   display: inline;
   
@@ -43,12 +47,12 @@ button:hover {
     font-size: 17px;
   }
   .topnav a:hover {
-    background-color: #444444;
+    background-color: #0356d1;
     color: rgb(255, 255, 255);
   }
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #009c34;
+    color: rgb(255, 255, 255);
   }
   .topnav select {
     
@@ -66,3 +70,8 @@ button:hover {
   div#login {
     margin: auto;
   }
+
+.search {
+  border-radius: 5px;
+  border: none;
+}

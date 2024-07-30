@@ -1,0 +1,68 @@
+span {
+  display: inline;
+  
+}
+span b {
+  margin-left: 550px;
+}
+span button {
+  background-color: #444444;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  width: 80px;
+  height: 25px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+button a:hover {
+ background-color: lightgray;
+ color: black;
+}
+button:hover {
+  background-color: lightgray;
+  color: black;
+ }
+.topnav {
+    background-color: rgb(200, 200, 200);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #060606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav select {
+    float: right;
+    margin-right: 40px;
+    margin-top: 12px;
+    background-color: grey;
+    color: white;
+  }
+  .topnav input {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 230px;
+    width: 500px;
+  }
+  div#login {
+    margin: auto;
+  }

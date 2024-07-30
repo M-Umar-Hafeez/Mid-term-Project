@@ -26,12 +26,12 @@ button a {
   color: white;
 }
 button a:hover {
- background-color: lightgray;
- color: black;
+ background-color: #0356d1;
+ color: rgb(255, 255, 255);
 }
 button:hover {
-  background-color: lightgray;
-  color: black;
+  background-color: #0356d1;
+  color: rgb(255, 255, 255);
  }
 .topnav {
     background-color: rgb(200, 200, 200);
@@ -79,3 +79,4 @@ button:hover {
   border-radius: 5px;
   border: none;
 }
+

@@ -1,5 +1,6 @@
 *{
   margin : 0;
+  box-sizing: border-box;
 }
 
 span {
@@ -14,7 +15,7 @@ span button {
   color: white;
   float: right;
   margin-right: 10px;
-  margin-top: 42px;
+  margin-top: 112px;
   border: none;
   width: 80px;
   height: 25px;
@@ -38,7 +39,7 @@ button:hover {
     overflow: hidden;
     position: fixed;
     z-index: 1;
-    margin-top: 10px;
+    margin-top: 80px;
     width: 100%;
     position: absolute;top: 20px;
   }
@@ -80,3 +81,15 @@ button:hover {
   border: none;
 }
 
+span b{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xxx-large;
+  margin-left: 15px;
+  margin-bottom: 30px ;
+  background-color: rgb(0, 36, 104);
+}
+span img{
+  width: 75px;
+  margin-top: 17px;
+  margin-left: 10px;
+}

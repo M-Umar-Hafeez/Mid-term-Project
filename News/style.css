@@ -2,14 +2,14 @@
   margin : 0;
 }
 
-span {
+.parent span {
   display: inline;
   
 }
-span b {
+.parent span b {
   margin-left: 550px;
 }
-span button {
+.parent span button {
   background-color: #444444;
   color: white;
   float: right;
@@ -21,11 +21,11 @@ span button {
   z-index: 4;
   position: relative;
 }
-button a {
+.parent button a {
   text-decoration: none;
   color: white;
 }
-button a:hover {
+.parent button a:hover {
  background-color: #0356d1;
  color: rgb(255, 255, 255);
 }
@@ -54,7 +54,7 @@ button:hover {
     background-color: #0356d1;
     color: rgb(255, 255, 255);
   }
-  .topnav a.active {
+  .topnav a :active{
     background-color: #009c34;
     color: rgb(255, 255, 255);
   }
@@ -71,12 +71,56 @@ button:hover {
     
     width: 500px;
   }
-  div#login {
-    margin: auto;
-  }
-
+  
 .search {
   border-radius: 5px;
   border: none;
 }
+/* login page  */
+#login-page 
+{
+    width: 350px;
+ margin-top: 160px;
+    margin-left: 460px;
+    border: 1px solid black;
+    padding: 50px;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow:5px 5px 5px #777777;
+}
+#login-page span b{
+  text-align: center;
+}
+#login-page span button{
+  background-color: #444444;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  margin-top: 42px;
+  border: none;
+  width: 80px;
+  height: 25px;
+  z-index: 4;
+  position: relative;
+}
+#login-page button a {
+  text-decoration: none;
+  color: white;
+}
+#login-page button a:hover {
+ background-color: #0356d1;
+ color: rgb(255, 255, 255);
+}
+#login-page button:hover {
+  background-color: #0356d1;
+  color: rgb(255, 255, 255);
+ }
 
+#login {
+  margin: auto;
+}
+
+/* aboutus page styling*/
+
+
+/* ContactUs page styling*/

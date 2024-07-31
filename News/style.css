@@ -1,6 +1,6 @@
 *{
   margin : 0;
-  box-sizing: border-box;
+  
 }
 
 span {
@@ -92,4 +92,9 @@ span img{
   width: 75px;
   margin-top: 17px;
   margin-left: 10px;
+}
+
+.bg img{
+  width: 100%;
+  filter: brightness(0.40);
 }

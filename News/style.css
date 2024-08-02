@@ -187,3 +187,20 @@ h2#about-1{
   margin-top: 10px;
   padding: 5px;
 }
+div.form {
+  margin: 20px;
+  font-weight: bolder;
+  width: 400px;
+}
+div.form input#contact_phone {
+  width: 100%;
+}
+div.form select#contact_phone {
+  width: 100%;
+}
+div.form textarea#contact_phone {
+  width: 100%;
+  padding: 5px 10px;
+  height: 90px
+}
+

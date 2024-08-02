@@ -166,3 +166,9 @@ h2#about-2{
   color: rgb(87, 86, 86);
   font-size: small;
  }
+ b#Query {
+  margin: 20px;
+ }
+ div#contact {
+  margin: 20px;
+ }

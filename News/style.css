@@ -227,8 +227,8 @@ div.para p{
 div.para b{
   font-size: xx-large;
 }
-div.news-img1 img{
-  width: 32%;
+.news-img1 img{
+  width: 28%;
   margin-left: 2%;
   margin-top: 542px;
 }
@@ -237,23 +237,22 @@ div.news-img1{
 }
 
 div.news-img2 img{
-  width: 63%;
-  margin-left: 2%;
+  width: 62%;
+  margin-left: 2.6%;
   margin-bottom: 330px;
 }
 div.news-img2{
-  width: 50%;
+  width: 45%;
   height: 100px;
 }
 
-div.news-img3 img{
+.news-img3 img{
   margin-left: 68%;
-  margin-bottom: 330%;
-  margin-top: -106%;
+  margin-bottom: 350%;
+  margin-top: 20%;
 }
-div.news-img3{
-  width: 50%;
-  height: 100px;
-  margin-top: 0%;
+.news-img3 img{
+  width: 30%;
+  height: 40%;
   display: inline;
 }

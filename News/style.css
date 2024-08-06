@@ -89,12 +89,6 @@ span img {
   margin-left: 10px;
 }
 
-.bg img {
-  width: 100%;
-  filter: brightness(0.4);
-  display: flex;
-  position: absolute;
-}
 
 .center-img img {
   width: 200%;

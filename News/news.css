@@ -92,6 +92,14 @@
     margin-top: 17px;
     margin-left: 10px;
 }
+
+.bg img {
+  width: 100%;
+  filter: brightness(0.4);
+  display: flex;
+  position: absolute;
+}
+
 div.head {
     position: absolute;
     top: 0;
@@ -100,7 +108,7 @@ div.head {
     margin-top: 5%;
     margin-left: 24%;
     font-size: xx-large;
-    color: #000000;
+    color: #ffffff;
   }
   
   div.para p {
@@ -109,9 +117,9 @@ div.head {
     left: 0;
     z-index: 4;
     margin-top: 15%;
-    margin-left: 2%;
+    margin-left: 0.9%;
     font-size: x-large;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
   }
   div.para b {
@@ -194,7 +202,7 @@ div.head {
   div.news-img5 img {
     width: 89%;
     margin-left: 9%;
-    margin-top: -59%;
+    margin-top: -59.5%;
     height: 303px;
   }
   
@@ -210,4 +218,23 @@ div.head {
     border: 1px solid #0356d1;
     height: 300px;
     margin-top: -60%;
+  }
+
+  div.news-img6 img {
+    width: 27.7%;
+    margin-left: 70.2%;
+    margin-top: -24.2%;
+    height: 280px;
+  }
+  
+  div.news-img6 {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+
+  div.container1{
+    margin-top: 4%;
+    display: inline;
+    border: 2px solid black;
   }

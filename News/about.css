@@ -174,10 +174,14 @@ background-color: darkgray !important;
   }
   span b {
     font-size: large;
-    margin-top: 70px;
+    margin-top: 0px;
   }
   span img {
     margin-top: 20px;
+    margin-right: 0px;
+  }
+  span {
+    display: inline;
   }
   }
 

@@ -89,7 +89,6 @@ span img {
   display: inline;
 }
 
-
 .center-img img {
   width: 200%;
   height: 100%;
@@ -112,6 +111,7 @@ div.side-nav1 {
   background-color: #363636;
   width: 30%;
   height: 400px;
+  margin-right: 2px;
 }
 .side-nav2 a {
   color: #ffffff;
@@ -119,6 +119,7 @@ div.side-nav1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
   text-align: center;
+  
 }
 h2 {
   margin: 20px;
@@ -133,46 +134,58 @@ ul {
   color: rgb(19, 19, 19);
   font-size: small;
 }
-div.bg-dark{
+div.bg-dark {
   background-color: darkgrey !important;
-  
-    }
-    div.bg-dark ul {
-     list-style: none;
-     margin-right: 60px;
-      }
-    div.bg-dark ul li{
-     border: 2px solid black;
-     text-align: center;
-     -moz-box-shadow: 5px 5px 5px #777777;
-      -webkit-box-shadow: 5px 5px 5px #777777;
-      box-shadow: 5px 5px 5px #777777;
-      }
-    div.bg-dark ul li a{
-      text-decoration: none;
-      color: black;
-      }
-  
-    nav.navbar-dark {
+}
+div.bg-dark ul {
+  list-style: none;
+  margin-right: 60px;
+}
+div.bg-dark ul li {
+  border: 2px solid black;
+  text-align: center;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+div.bg-dark ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.navbar-dark {
   background-color: darkgray !important;
-    }
-    @media only screen and (min-width: 1024px) {
-     .mobile-view {
-      display: none;
-     }
-    }
-    @media only screen and (max-width: 1024px) {
-    .topnav {
-      display: none;
-    }
-    span button {
-      display: none;
-    }
-    span b {
-      font-size: large;
-      margin-top: 70px;
-    }
-    span img {
-      margin-top: 20px;
-    }
-    }
+}
+@media only screen and (min-width: 1024px) {
+  .mobile-view {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .topnav {
+    display: none;
+  }
+  span button {
+    display: none;
+  }
+  span b {
+    font-size: 1.8rem;
+    margin-top: -45px;
+    margin-left: 80px;
+  }
+  span img {
+    margin-top: 25px;
+    margin-right: 0px;
+    width: 60px;
+  }
+}
+
+.line1{
+  border: 7px solid rgb(0, 255, 0);
+  margin-top: 1px;
+  filter: brightness(100);
+  width: 100%;
+}
+.slider{
+  width: 100%;
+}

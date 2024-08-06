@@ -176,10 +176,13 @@ nav.navbar-dark {
     display: none;
   }
   span b {
-    font-size: large;
-    margin-top: 70px;
+    font-size: 1.80rem;
+    margin-top: -45px;
+    margin-left: 80px;
   }
   span img {
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-right: 0px;
+    width: 60px;
   }
 }

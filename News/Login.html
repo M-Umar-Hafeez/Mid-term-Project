@@ -7,38 +7,38 @@
     <link rel="stylesheet" href="./login.css" />
   </head>
   <body>
-    <div style="background-color: rgb(0, 36, 104); height: 110px">
-        <span>
-          <img src="./Images/download__4_-removebg-preview - Copy.png" alt="">
-          <button><a href="./signup.html">Sign Up</a></button>
-          <diٖv class="namediv" style="display: flex;">
-      <b style="color: rgb(7, 177, 140)" >DAILYNEWS EXPRESS</b>
-    </div>
-        </span>
+    <header>
+      <div class="header-content">
+        <img src="./images/download__4_-removebg-preview - Copy.png" alt="Logo" />
+        <h1>DAILYNEWS EXPRESS</h1>
       </div>
-    <div
-      id="login-page"
-      style="
-        width: 450px;
-        margin-top: 100px;
-        margin-left: 400px;
-        border: 1px solid black;
-        padding: 50px;
-        -moz-box-shadow: 5px 5px 5px #777777;
-        -webkit-box-shadow: 5px 5px 5px #777777;
-        box-shadow: 5px 5px 5px #777777;
-      "
-    >
-    <div id="Login">
-        <label for="Username">Username:</label
-        ><input id="Username" type="text" /><br /><br />
-        <label for="Pass">Password: </label><input id="Pass" type="password" />
-        <br /><br /><br />
-        <button style="background-color: rgb(0, 0, 0); width: 100%">
-          <a href="./index.html" style="text-decoration: none; color: white"
-            >Log In</a
-          >
-        </button>
+    </header>
+    <div class="bg2">
+      <img src="./Images/download (5).jpeg" alt="">
+    </div>
+    <div class="main-content">
+      <div class="login-form">
+        <h2>Log In</h2>
+        <p class="note">Please fill in this form to log in your account!</p>
+        <form action="#" method="post">
+          <input class="username"
+            type="text"
+            name="username"
+            placeholder="Username"
+            required
+          />        
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />          
+          <p class="forgot"><a href="">Forgot Password?</a></p>
+          <button type="submit"><a href="./index.html">Log In</a></button>
+        </form>
+        <p class="signup-link">
+          Don't have an account? <a href="./signup.html">SignUp here</a>.
+        </p>
       </div>
     </div>
   </body>

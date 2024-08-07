@@ -6,64 +6,6 @@
     <title>Signup</title>
     <link rel="stylesheet" href="./sign.css" />
   </head>
-  <!-- <body>
-    <div style="background-color: rgb(0, 36, 104); height: 110px">
-    <span>
-      <img src="./Images/download__4_-removebg-preview - Copy.png" alt="">
-      <button><a href="./Login.html">Log In</a></button>
-      <diٖv class="namediv" style="display: flex;">
-      <b style="color: rgb(7, 177, 140)" >DAILYNEWS EXPRESS</b>
-    </div>
-    </span>
-  </div>
-    <div
-      id="Login"
-      style="
-        width: 450px;
-        margin-top: 100px;
-        margin-left: 400px;
-        border: 1px solid black;
-        padding: 50px;
-        -moz-box-shadow: 5px 5px 5px #777777;
-        -webkit-box-shadow: 5px 5px 5px #777777;
-        box-shadow: 5px 5px 5px #777777;
-      "
-    >
-      <input id="first" type="text" placeholder="First Name" /><br /><br />
-      <input id="last" type="text" placeholder="Last Name" /><br /><br />
-      <input id="email" type="text" placeholder="Email" /><br /><br />
-      <input id="password" type="text" placeholder="Password" /><br /><br />
-      <input id="confirm" type="text" placeholder="Confirm Password" /><br /><br />
-
-      <br /><br /><br />
-      <button style="background-color: rgb(0, 0, 0); width: 100%">
-        <a href="./index.html" style="text-decoration: none; color: white"
-          >Sign Up</a
-        >
-      </button>
-    </div>
-    <div class="container">
-      <div class="signup-form">
-          <h2>Sign Up</h2>
-          <p>Please fill in this form to create an account!</p>
-          <form action="#" method="post">
-            <div class="grid">
-              <input type="text" name="first_name" placeholder="First Name" required>
-              <input type="text" name="last_name" placeholder="Last Name" required>
-            </div>
-              <input type="email" name="email" placeholder="Email" required>
-              <input type="password" name="password" placeholder="Password" required>
-              <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-              <div class="terms">
-                  <input type="checkbox" name="terms" required>
-                  <label for="terms">I accept the <a href="#">Terms of Use & Privacy Policy</a>.</label>
-              </div>
-              <button type="submit">Sign Up</button>
-          </form>
-          <p class="login-link">Already have an account? <a href="#">Login here</a>.</p>
-      </div>
-  </div>
-  </body> -->
   <body>
     <header>
       <div class="header-content">
@@ -71,23 +13,28 @@
         <h1>DAILYNEWS EXPRESS</h1>
       </div>
     </header>
+    <div class="bg2">
+      <img src="./Images/download (5).jpeg" alt="">
+    </div>
     <div class="main-content">
       <div class="signup-form">
         <h2>Sign Up</h2>
-        <p>Please fill in this form to create an account!</p>
+        <p class="note">Please fill in this form to create an account!</p>
         <form action="#" method="post">
-          <input
+          <div class="grid">
+          <input class="first_name"
             type="text"
             name="first_name"
             placeholder="First Name"
             required
           />
-          <input
+          <input class="last_name"
             type="text"
             name="last_name"
             placeholder="Last Name"
             required
           />
+        </div>
           <input type="email" name="email" placeholder="Email" required />
           <input
             type="password"
@@ -108,10 +55,10 @@
               <a href="#">Terms of Use & Privacy Policy</a>.</label
             >
           </div>
-          <button type="submit">Sign Up</button>
+          <button type="submit"><a href="./index.html">Sign Up</a></button>
         </form>
         <p class="login-link">
-          Already have an account? <a href="#">Login here</a>.
+          Already have an account? <a href="./Login.html">LogIn here</a>.
         </p>
       </div>
     </div>

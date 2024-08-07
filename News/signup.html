@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup</title>
     <link rel="stylesheet" href="./sign.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -17,11 +18,11 @@
       <img src="./Images/69695912840.png" alt="">
     </div>
     <div class="main-content">
-      <div class="signup-form">
-        <h2>Sign Up</h2>
-        <p class="note">Please fill in this form to create an account!</p>
+      <div data-aos="fade-up" class="signup-form">
+        <h2 data-aos="fade-up">Sign Up</h2>
+        <p  data-aos="fade-up"class="note">Please fill in this form to create an account!</p>
         <form action="#" method="post">
-          <div class="grid">
+          <div data-aos="fade-up" class="grid">
           <input class="first_name"
             type="text"
             name="first_name"
@@ -35,20 +36,20 @@
             required
           />
         </div>
-          <input type="email" name="email" placeholder="Email" required />
-          <input
+          <input data-aos="fade-up" type="email" name="email" placeholder="Email" required />
+          <input data-aos="fade-up"
             type="password"
             name="password"
             placeholder="Password"
             required
           />
-          <input
+          <input data-aos="fade-up"
             type="password"
             name="confirm_password"
             placeholder="Confirm Password"
             required
           />
-          <div class="terms">
+          <div data-aos="fade-up" class="terms">
             <input type="checkbox" name="terms" required />
             <label for="terms"
               >I accept the
@@ -58,9 +59,13 @@
           <button type="submit"><a href="./index.html">Sign Up</a></button>
         </form>
         <p class="login-link">
-          Already have an account? <a href="./Login.html">LogIn here</a>.
+          Already have an account? <a href="./Login.html" >LogIn here</a>.
         </p>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>

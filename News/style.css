@@ -218,6 +218,7 @@ footer {
 .single-box p {
 	color: #fff;
 	line-height: 1.9;
+  margin-left: 1px;
 }
 .single-box h3 {
 	font-size: 16px;
@@ -238,11 +239,13 @@ footer {
 	color: #fff;
 	line-height: 2.5;
 	font-weight: 100;
+  margin-left: -45%;
 }
 .single-box h2 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 700;
+  margin-left: 1px;
 }
 #basic-addon2 {
 	background: #fe1e4f;

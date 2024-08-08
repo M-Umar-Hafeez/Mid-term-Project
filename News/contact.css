@@ -127,6 +127,7 @@ p {
   margin: 20px;
   color: rgb(61, 60, 60);
   font-size: small;
+  margin-left: 50px;
 }
 ul {
   margin: 20px;
@@ -141,6 +142,12 @@ h1#About {
   margin-left: 10px;
   margin-top: 10px;
   padding: 5px;
+}
+.lines{
+  margin-top: -5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 2px solid rgb(173, 173, 173);
 }
 div.bg-dark {
   background-color: darkgrey !important;
@@ -198,6 +205,7 @@ footer {
 .single-box p {
 	color: #fff;
 	line-height: 1.9;
+  margin-left: 1px;
 }
 .single-box h3 {
 	font-size: 16px;
@@ -218,11 +226,13 @@ footer {
 	color: #fff;
 	line-height: 2.5;
 	font-weight: 100;
+  margin-left: -8%;
 }
 .single-box h2 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 700;
+  margin-left: 1px;
 }
 #basic-addon2 {
 	background: #fe1e4f;

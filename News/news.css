@@ -178,16 +178,18 @@ div.line2 {
   margin-top: 45.8%;
   margin-left: 25px;
   margin-right: 25px;
+  border: 2px solid black;
 }
 
 .line01{
   margin-top: -30px;
   margin-left: 25px;
   margin-right: 25px;
+  border: 2px solid black;
 }
 div.head1 {
   border: 5px solid rgb(226, 147, 0);
-  height: 50px;
+  height: 55px;
   margin-top: 41.2%;
   display: flex;
   position: absolute;

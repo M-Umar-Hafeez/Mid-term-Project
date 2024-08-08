@@ -307,3 +307,38 @@ nav.navbar-dark {
     width: 60px;
   }
 }
+footer {
+  background: linear-gradient(to right, #d3d3d3, #a9a9a9);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  border-top: 5px double orange;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  border-top: #a9a9a9 4px solid;
+  border-left: #a9a9a9 4px solid;
+  border-bottom: #d3d3d3 4px solid;
+  border-right: #d3d3d3 4px solid;
+  padding: 5px;
+  background-color: none;
+}
+
+footer nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
